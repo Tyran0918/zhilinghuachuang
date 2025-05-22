@@ -1,0 +1,26 @@
+/* 全局字体 */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  /* Hero 区域背景及叠加层 */
+  .hero {
+    position: relative;
+    height: 60vh;
+    background: url('../img/toutu.png') center/cover no-repeat;
+  }
+  .hero .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .hero .container {
+    z-index: 1;
+  }
+  
+  /* 卡片鼠标悬停 */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  
